@@ -5,7 +5,7 @@ A tip calculator app.
 <img src="http://g.recordit.co/bbGJdessiq.gif" width=200><br>
 
 ### Features
-[x] Calculate tip
-[x] Calculate new total
-[x] Total split per person (groups of 1-4)
-[x] Set default tip percentage
+- [x] Calculate Tip
+- [x] Calculate new total
+- [x] Total split per person (groups of 1-4)
+- [x] Set default tip percentage

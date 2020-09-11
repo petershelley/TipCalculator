@@ -18,8 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet var totalAmt: UILabel!
     @IBOutlet var totalLabel: UILabel!
     @IBOutlet var tipSegCtrl: UISegmentedControl!
-    @IBOutlet var onePerson: UILabel!
-    @IBOutlet var onePic: UIImageView!
+    
     @IBOutlet var twoPerson: UILabel!
     @IBOutlet var twoPic: UIImageView!
     @IBOutlet var twoPic_2: UIImageView!
@@ -50,8 +49,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func hideSpecs(_ sender: Any) {
-        onePerson.isHidden=true
-        onePic.isHidden=true
         twoPerson.isHidden=true
         twoPic.isHidden=true
         twoPic_2.isHidden=true
@@ -67,8 +64,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showSpecs(_ sender: Any) {
-        onePerson.isHidden=false
-        onePic.isHidden=false
         twoPerson.isHidden=false
         twoPic.isHidden=false
         twoPic_2.isHidden=false
@@ -85,19 +80,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func calculate(_ sender: Any) {
-        //tipLabel.isHidden=false
-//        tipLabel.alpha = 0.0
-//        tipLabel.transform = CGAffineTransform.identity.translatedBy(x: 0.8, y: 0.8)
-//        UIView.animate(withDuration: 1.0, animations: {
-//            self.tipLabel.alpha = 1
-//            self.tipLabel.transform = CGAffineTransform.identity
-//        })
-//        tipLabel.isHidden=false
-//        totalLabel.isHidden=false
-//        tipAmt.isHidden=false
-//        totalAmt.isHidden=false
-//        tipSegCtrl.isHidden=false
-        //Get bill amount
         let bill  = Double(billAmt.text!) ?? 0
         let tipPerc = [0.10, 0.15, 0.20]
         
@@ -108,7 +90,6 @@ class ViewController: UIViewController {
         //update the tip and total labels
         tipAmt.text = String(format: "$%.2f", tip)
         totalAmt.text = String(format: "$%.2f", total)
-        onePerson.text = String(format: "$%.2f",total)
         twoPerson.text = String(format: "$%.2f", total/2)
         threePerson.text = String(format: "$%.2f", total/3)
         fourPerson.text = String(format: "$%.2f", total/4)

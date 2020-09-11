@@ -15,6 +15,7 @@
 		631DEDD124B6127800CB3716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631DEDCF24B6127800CB3716 /* LaunchScreen.storyboard */; };
 		631DEDDC24B6127800CB3716 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DEDDB24B6127800CB3716 /* TipCalculatorTests.swift */; };
 		631DEDE724CDFC5100CB3716 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DEDE624CDFC5100CB3716 /* SettingsViewController.swift */; };
+		6321AD26250BD4DC000D0D6D /* ViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321AD25250BD4DC000D0D6D /* ViewControllerEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		631DEDDB24B6127800CB3716 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		631DEDDD24B6127800CB3716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631DEDE624CDFC5100CB3716 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6321AD25250BD4DC000D0D6D /* ViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				631DEDC624B6127300CB3716 /* SceneDelegate.swift */,
 				631DEDC824B6127300CB3716 /* ViewController.swift */,
 				631DEDCA24B6127400CB3716 /* Main.storyboard */,
+				6321AD25250BD4DC000D0D6D /* ViewControllerEx.swift */,
 				631DEDE624CDFC5100CB3716 /* SettingsViewController.swift */,
 				631DEDCD24B6127800CB3716 /* Assets.xcassets */,
 				631DEDCF24B6127800CB3716 /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 			files = (
 				631DEDC924B6127400CB3716 /* ViewController.swift in Sources */,
 				631DEDC524B6127300CB3716 /* AppDelegate.swift in Sources */,
+				6321AD26250BD4DC000D0D6D /* ViewControllerEx.swift in Sources */,
 				631DEDC724B6127300CB3716 /* SceneDelegate.swift in Sources */,
 				631DEDE724CDFC5100CB3716 /* SettingsViewController.swift in Sources */,
 			);
